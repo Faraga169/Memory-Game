@@ -10,12 +10,16 @@ A simple Memory Card Game built using HTML, CSS, and TypeScript with sound effec
 🏆 Win screen with final score
 🔁 Play again functionality
 🧠 Prevents double clicking using lock system
+
+
 🛠️ Technologies Used
 HTML5
 CSS3
 TypeScript (OOP)
 DOM Manipulation
 Audio API
+
+
 📂 Project Structure
 MemoryGame/
 │
@@ -25,6 +29,9 @@ MemoryGame/
 ├── MemoryGame.js (compiled)
 ├── images/
 ├── Sounds/
+
+
+
 🎮 How to Play
 Click on any card to flip it
 Try to find matching pairs
@@ -32,12 +39,18 @@ Each match gives +10 points
 Wrong match gives -2 points
 Match all cards to win the game
 Click Play Again to restart
+
+
+
 🧠 Game Logic
 Cards are shuffled randomly at the start
 Only 2 cards can be flipped at a time
 If cards match → they stay open
 If not → they flip back after 1 second
 Game ends when all cards are flipped
+
+
+
 🔊 Sounds
 Flip sound when card is opened
 Match sound when pair is correct
@@ -50,5 +63,7 @@ git clone https://github.com/your-username/memory-game.git
 
 # open project
 open index.html
+
+
 ✨ Author
 Made with 💙 while learning TypeScript & DOM manipulation.
